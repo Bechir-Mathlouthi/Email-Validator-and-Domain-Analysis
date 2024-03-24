@@ -19,12 +19,11 @@ function getUserInputCLI() {
 
 // Function to validate the file path
 function validateFilePath(filePath) {
-  // Add your custom validation logic here
-  // For example, you can check if the file path matches a specific pattern or format
+  
   
   // Check if filePath is not undefined or null
   if (filePath && filePath.startsWith) {
-    // For demonstration, let's check if the file path starts with "https://drive.google.com/"
+    // check if the file path starts with "https://drive.google.com/"
     if (filePath.startsWith("https://drive.google.com/")) {
       return true;
     }
