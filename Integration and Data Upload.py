@@ -24,13 +24,13 @@ df_all_emails = pd.DataFrame(data_all_emails[1], columns=data_all_emails[0])
 data_keywords = worksheet_keywords.col_values(1)[1]
 
 # Process the data (you can perform any processing here)
-# For example, print the data
+
 print(ALL EMAILS)
 print(df_all_emails)
 print(nKeywords for matching)
 print(data_keywords)
 
-# Update the data in the Google Sheets document (if needed)
+# Update the data in the Google Sheets documents 
 
 worksheet.update('A1', 'New Data')
 
