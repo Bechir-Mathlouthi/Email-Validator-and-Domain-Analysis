@@ -76,12 +76,16 @@ Save the script and close the editor.
 Reload your Google Sheets document. You should now see a "Custom Menu" with options to write or select the Excel file path.
 
 Use the menu options to input the file path or select it using the dialog window.
+![image](https://github.com/Bechir-Mathlouthi/Email-Validator-and-Domain-Analysis/assets/164773848/2d3ead10-786d-4355-9dd1-94336874034b)
 
-# Customization:
-You can customize the validation logic in the validateFilePath function to match your specific requirements.
-Modify the getUserInputCLI and selectFilePathDialog functions to change the input method or dialog window appearance.
-You can customize the validation logic in the validateFilePath function to match your specific requirements.
-Modify the getUserInputCLI and selectFilePathDialog functions to change the input method or dialog window appearance.
+
+input the file path:
+
+![image](https://github.com/Bechir-Mathlouthi/Email-Validator-and-Domain-Analysis/assets/164773848/57ad4d87-bc62-44fd-a8d2-4749c5f03466)
+
+Or select it using the dialog window:
+![image](https://github.com/Bechir-Mathlouthi/Email-Validator-and-Domain-Analysis/assets/164773848/649b69fa-dac0-430b-917a-7eeecd67fb1c)
+
 
 # 4.Parse and Update Google Sheets
 This Google Apps Script provides advanced functionalities for parsing and updating Google Sheets based on column names. It includes custom menu options and dialog windows for managing email addresses and keywords.
