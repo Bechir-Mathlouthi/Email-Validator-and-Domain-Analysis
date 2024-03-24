@@ -33,6 +33,11 @@ An Excel file 100 Emails.xlsx is provided in the repository for testing purposes
 # 2.Keyword Matching
 This Python script extracts email domains from email addresses and performs keyword matching based on predefined keywords. It reads an Excel file containing email addresses and keywords, then processes the data to extract relevant information.
 
+a screenshot of the output is as follow: 
+
+![image](https://github.com/Bechir-Mathlouthi/Email-Validator-and-Domain-Analysis/assets/164773848/8a1a417f-475e-4579-bc8c-1788ec69ddc5)
+
+
 #Features
 Domain Extraction: Extracts domain names from email addresses.
 
