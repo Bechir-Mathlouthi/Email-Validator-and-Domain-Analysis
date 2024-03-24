@@ -139,3 +139,37 @@ Save the script and close the editor.
 Reload your Google Sheets document. You should now see a "Custom Menu" with options to manage email addresses and keywords.
 
 Use the menu options to perform various actions on email addresses and keywords.
+
+
+# 5.User Input Handling
+This Python script demonstrates handling user input for inputting an Excel file path via Command Line Interface (CLI) and implementing robust input validation and error handling.
+
+# Features
+CLI Input for Excel File Path: Allows users to input the Excel file path via Command Line Interface (CLI).
+
+Robust Input Validation: Performs robust input validation to ensure the entered file path is valid.
+
+Error Handling: Provides error handling mechanisms to gracefully handle exceptions and errors during the input process.
+
+# Prerequisites
+Before using the script, ensure you have the following:
+
+Python installed on your system.
+Google Sheets API enabled and access to the desired Google Sheets document.
+Service account credentials JSON file (your_credentials.json) for authenticating with Google Sheets API.
+# Usage
+Ensure you have installed the necessary Python packages by running:
+
+pip install gspread oauth2client pandas
+Replace your_credentials.json with your actual service account credentials JSON file.
+
+Replace 'your_spreadsheet_name' with the name of your actual Google Sheets document.
+
+Run the script in your terminal:
+
+python  Integration and Data Upload.py
+Follow the prompts to input the Excel file path.
+
+The script will validate the input and print the data from the specified sheets (ALL EMAILS and Keywords for matching). You can perform any desired processing with the data.
+
+Update or append data to the Google Sheets document as needed.
