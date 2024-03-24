@@ -106,6 +106,11 @@ Custom Menu: Creates a custom menu in Google Sheets with options to show, search
 
 ![image](https://github.com/Bechir-Mathlouthi/Email-Validator-and-Domain-Analysis/assets/164773848/24ecfce3-2ae6-47c1-8f9f-eb3bcd66876e)
 
+
+exemple of adding an email window :  
+
+![image](https://github.com/Bechir-Mathlouthi/Email-Validator-and-Domain-Analysis/assets/164773848/f880fe0b-a30c-42df-aa8e-c1aca267fe26)
+
 # Prerequisites
 Before using the Google Apps Script, ensure you have the following:
 
