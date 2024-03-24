@@ -104,6 +104,8 @@ Custom Menu: Creates a custom menu in Google Sheets with options to show, search
 
 10. Delete Keyword: Deletes a keyword from the list.
 
+![image](https://github.com/Bechir-Mathlouthi/Email-Validator-and-Domain-Analysis/assets/164773848/24ecfce3-2ae6-47c1-8f9f-eb3bcd66876e)
+
 # Prerequisites
 Before using the Google Apps Script, ensure you have the following:
 
