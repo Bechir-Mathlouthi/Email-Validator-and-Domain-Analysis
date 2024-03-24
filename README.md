@@ -44,3 +44,36 @@ Update the file_path variable in the script with the path to your Excel file.
 Run the script keyword_matching.ipynb in a Jupyter Notebook or any compatible environment.
 
 The script will extract domains from email addresses and perform keyword matching. Results will be displayed in a table format.
+
+# 3. Google Apps Script Integration
+This Google Apps Script provides advanced functionalities for parsing and updating Google Sheets based on column names. It includes custom menu options and a dialog window for selecting an Excel file path.
+
+# Features
+User Input Handling: Allows users to input the Excel file path either through a CLI prompt or a dialog window.
+
+# File Path Validation: Validates the entered file path to ensure it meets specific criteria.
+
+# Custom Menu: Creates a custom menu in Google Sheets with options to write or select the Excel file path.
+
+# Prerequisites
+Before using the Google Apps Script, ensure you have the following:
+
+Access to Google Sheets and permission to run scripts.
+# Usage
+Open your Google Sheets document.
+
+Click on "Extensions" > "Apps Script" to open the Apps Script editor.
+
+Copy and paste the provided JavaScript Code0.gs and selectFilePage.html codes into the editor.
+
+Save the script and close the editor.
+
+Reload your Google Sheets document. You should now see a "Custom Menu" with options to write or select the Excel file path.
+
+Use the menu options to input the file path or select it using the dialog window.
+
+# Customization:
+You can customize the validation logic in the validateFilePath function to match your specific requirements.
+Modify the getUserInputCLI and selectFilePathDialog functions to change the input method or dialog window appearance.
+You can customize the validation logic in the validateFilePath function to match your specific requirements.
+Modify the getUserInputCLI and selectFilePathDialog functions to change the input method or dialog window appearance.
