@@ -77,3 +77,47 @@ You can customize the validation logic in the validateFilePath function to match
 Modify the getUserInputCLI and selectFilePathDialog functions to change the input method or dialog window appearance.
 You can customize the validation logic in the validateFilePath function to match your specific requirements.
 Modify the getUserInputCLI and selectFilePathDialog functions to change the input method or dialog window appearance.
+
+# 4.Parse and Update Google Sheets
+This Google Apps Script provides advanced functionalities for parsing and updating Google Sheets based on column names. It includes custom menu options and dialog windows for managing email addresses and keywords.
+
+# Features
+Custom Menu: Creates a custom menu in Google Sheets with options to show, search, add, update, and delete email addresses and keywords.
+
+1. Show Email List: Displays a list of email addresses stored in the sheet named "ALL EMAILS".
+
+2. Search Email: Allows searching for a specific email address and highlights it in the sheet.
+
+3. Add Email: Adds a new email address to the list.
+
+4. Update Email: Updates an existing email address with a new one.
+
+5. Delete Email: Deletes an email address from the list.
+
+6. Show Keyword List: Displays a list of keywords stored in the sheet named "Keywords for matching".
+
+7. Search Keyword: Allows searching for a specific keyword and highlights it in the sheet.
+
+8. Add Keyword: Adds a new keyword to the list.
+
+9. Update Keyword: Updates an existing keyword with a new one.
+
+10. Delete Keyword: Deletes a keyword from the list.
+
+# Prerequisites
+Before using the Google Apps Script, ensure you have the following:
+
+Access to Google Sheets and permission to run scripts.
+Familiarity with Google Apps Script environment and how to create and run scripts.
+Usage
+Open your Google Sheets document.
+
+Click on "Extensions" > "Apps Script" to open the Apps Script editor.
+
+Copy and paste the provided JavaScript Parse_Update Google Sheets.gs code into the editor.
+
+Save the script and close the editor.
+
+Reload your Google Sheets document. You should now see a "Custom Menu" with options to manage email addresses and keywords.
+
+Use the menu options to perform various actions on email addresses and keywords.
