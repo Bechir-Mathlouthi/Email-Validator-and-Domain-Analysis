@@ -7,7 +7,7 @@ This Python application is designed to validate and analyze email addresses from
 # Features
 Excel File Parsing: The script reads an Excel file containing email addresses using the Pandas library or similar tools for efficient data handling.
 
-# Email Validation: 
+# 1.Email Validation: 
 Utilizes the Mailboxlayer API to validate email addresses. Handles API responses and errors gracefully.
 
 Domain Extraction: Extracts email domains from validated email addresses.
@@ -29,3 +29,18 @@ The script will validate email addresses, extract domains, and perform keyword m
 
 # Input
 An Excel file 100 Emails.xlsx is provided in the repository for testing purposes.
+
+# 2.Keyword Matching
+This Python script extracts email domains from email addresses and performs keyword matching based on predefined keywords. It reads an Excel file containing email addresses and keywords, then processes the data to extract relevant information.
+
+#Features
+Domain Extraction: Extracts domain names from email addresses.
+
+#Keyword Matching: Matches email addresses and domains against a list of predefined keywords.
+
+
+Update the file_path variable in the script with the path to your Excel file.
+
+Run the script keyword_matching.ipynb in a Jupyter Notebook or any compatible environment.
+
+The script will extract domains from email addresses and perform keyword matching. Results will be displayed in a table format.
