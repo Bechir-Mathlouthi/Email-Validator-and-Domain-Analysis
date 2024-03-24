@@ -172,4 +172,8 @@ Follow the prompts to input the Excel file path.
 
 The script will validate the input and print the data from the specified sheets (ALL EMAILS and Keywords for matching). You can perform any desired processing with the data.
 
-Update or append data to the Google Sheets document as needed.
+
+Here's the README content for the Error Handling and Logging section:
+
+# 6.Error Handling and Logging
+ This repository demonstrates the implementation of try-except blocks for error management and the use of logging or console statements for tracking and debugging purposes in various components of the project.
