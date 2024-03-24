@@ -56,9 +56,11 @@ This Google Apps Script provides advanced functionalities for parsing and updati
 # Features
 User Input Handling: Allows users to input the Excel file path either through a CLI prompt or a dialog window.
 
-# File Path Validation: Validates the entered file path to ensure it meets specific criteria.
+# File Path Validation:
+Validates the entered file path to ensure it meets specific criteria.
 
-# Custom Menu: Creates a custom menu in Google Sheets with options to write or select the Excel file path.
+# Custom Menu: 
+Creates a custom menu in Google Sheets with options to write or select the Excel file path.
 
 # Prerequisites
 Before using the Google Apps Script, ensure you have the following:
